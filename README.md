@@ -10,5 +10,6 @@ I use Python 3.7 to do analysis. Here is the way I analyzed this data:
 8. 
   (1). Accuracy performance when it comes to different polynomial degree:
   Increasing polynomial degree will let model to track every single data as much as possible. This is easy to get high    accuracy in training and validation data. However, keep increasing polynomial degree will cause overfitting. Thus, the model   cannot correctly predict the data that the model haven't seen before.
+  
   (2). Accuracy performance when it comes to different scale of regularization function(alpha):
   Regularization (R2) can smooth the model so that we can decrease the influence of extreme value. However, too large scale of R2 is not good because it will cause underfitting. From the plotting result, I got best accuracy in validation when alpha = 100.
